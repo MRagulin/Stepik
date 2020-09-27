@@ -12,8 +12,6 @@ def app(environ, start_response):
         resp = [bytes(i + '\n', 'ascii') for i in environ['QUERY_STRING'].split('&')]
     return resp
 
-
-
 # def fun(a,b):
 #     return
 # t= {}
